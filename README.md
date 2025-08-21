@@ -1,12 +1,53 @@
-# React + Vite
+# 🐉 React Pokémon Fun  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A playful React project where I display Pokémon with their images and info.  
+This project is just me having fun while learning React components, props, and state! 🎉  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ Preview
+![App Screenshot](src/photo-collage.png)  
+*(Replace with your actual screenshot if you update it later)*  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧐 Features
+- Display Pokémon images, names, and info  
+- Organized with **React components**  
+- Practice using **props** and **state**  
+- Fun and colorful UI ✨  
+
+---
+
+## 🥸 Tech Stack
+- **React.js** ⚛️  
+- **JavaScript (ES6+)**  
+- **CSS / Tailwind (optional)**  
+
+---
+
+## 📂 Project Structure
+vite-project/
+│── src/
+│ ├── components/
+│ │ ├── PokemonCard.jsx
+│ │ └── PokemonList.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── photo-collage.png <-- screenshot
+│── index.html
+│── package.json
+│── vite.config.js
+│── README.md
+
+⚙️ About React + Vite Setup
+
+-This project was bootstrapped with Vite, which provides:
+-Minimal setup for React
+-Hot Module Replacement (HMR) for instant updates
+-ESLint integration for cleaner code
+-Options for Babel (@vitejs/plugin-react) or SWC (@vitejs/plugin-react-swc) Fast Refresh
+
+🧑‍💻 Author
+
+Made with ❤️ by Abdullah Arif
