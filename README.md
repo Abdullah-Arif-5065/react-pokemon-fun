@@ -6,7 +6,7 @@ This project is just me having fun while learning React components, props, and s
 ---
 
 ## 🖼️ Preview
-![App Screenshot](src/photo-collage.png)  
+![App Screenshot](photo-collage.png)  
 *(Replace with your actual screenshot if you update it later)*  
 
 ---
@@ -27,6 +27,7 @@ This project is just me having fun while learning React components, props, and s
 ---
 
 ## 📂 Project Structure
+
 vite-project/
 │── src/
 │ ├── components/
@@ -40,13 +41,13 @@ vite-project/
 │── vite.config.js
 │── README.md
 
-⚙️ About React + Vite Setup
+## ⚙️ About React + Vite Setup
 
--This project was bootstrapped with Vite, which provides:
--Minimal setup for React
--Hot Module Replacement (HMR) for instant updates
--ESLint integration for cleaner code
--Options for Babel (@vitejs/plugin-react) or SWC (@vitejs/plugin-react-swc) Fast Refresh
+- This project was bootstrapped with Vite, which provides:
+  - Minimal setup for React
+  - Hot Module Replacement (HMR) for instant updates
+  - ESLint integration for cleaner code
+  - Options for Babel (@vitejs/plugin-react) or SWC (@vitejs/plugin-react-swc) Fast Refresh
 
 🧑‍💻 Author
 
