@@ -1,0 +1,109 @@
+/* Import pixel-style font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: radial-gradient(circle at top, #ffcb05, #3b4cca);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Header */
+h1 {
+  font-size: 2rem;
+  color: #ff4757;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 30px;
+  animation: pulse 2s infinite;
+}
+
+/* Form */
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border: 3px solid #ff4757;
+  border-radius: 12px;
+  font-size: 1rem;
+  width: 260px;
+  background-color: #fff;
+  color: #3b4cca;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff4757;
+}
+
+button {
+  padding: 12px 20px;
+  background: linear-gradient(to right, #3b4cca, #ffcb05);
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ffcb05;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ffcb05;
+}
+
+/* Todo List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #fff;
+  color: #3b4cca;
+  border: 3px dashed #ffcb05;
+  margin: 10px auto;
+  padding: 14px;
+  width: 300px;
+  border-radius: 12px;
+  font-size: 1rem;
+  position: relative;
+  box-shadow: 0 0 10px #3b4cca;
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+
+/* Pokéball icon */
+li::before {
+  content: "⚪";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: #ff4757;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: #eee;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% { text-shadow: 2px 2px #000; }
+  50% { text-shadow: 2px 2px #ffcb05; }
+  100% { text-shadow: 2px 2px #000; }
+}
